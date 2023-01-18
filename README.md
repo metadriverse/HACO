@@ -54,7 +54,7 @@ python train_haco.py --num-gpus=1
 If steering wheel is not available, set ```controller="keyboard"``` in the script to train HACO agent. After launching this script,
 one hour is required for human to assist HACO agent to learn a generalizable driving policy by training in 50 different maps.
 
-### CARLA Experimennt
+### CARLA Experiment
 CARLA used in our experiment is version 0.9.9.4, so pleas follow the instruction in 
 [CARLA offical repo](https://github.com/carla-simulator/carla) to install it.
 After installation, launch CARLA server by:
